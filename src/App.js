@@ -1,11 +1,11 @@
 import "./App.css";
-import LoadingPost from "./LoadingPost";
-import Posts from "./Posts";
+import { Posts } from "./Posts";
+import { LoadingPosts } from "./LoadingPosts";
 
 function App() {
   return (
-    <div className="container pt-4">
-      {/* <LoadingPost/> */}
+    <div className="container p-4">
+      {/* <LoadingPosts /> */}
       <Posts />
     </div>
   );
